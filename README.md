@@ -1,5 +1,6 @@
 ﻿# Hospital_Project-SpringBoot-SpringMVC-SpringData-SpringSecurity-thymleaf
  Web application allowing the management of a hospital and the follow-up of the patients
+ <br></br>
  Application web permettant la gestion d'un hôpital et le suivi des patients
  <br></br>
  ![Spring_Hospital (1)](https://user-images.githubusercontent.com/79877072/221596848-0daf50a8-a682-4558-b525-4d8e6ce785bb.jpg)
