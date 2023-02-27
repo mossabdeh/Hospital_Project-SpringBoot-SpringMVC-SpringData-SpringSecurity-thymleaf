@@ -10,7 +10,9 @@
  #### Gestion des patients  :
  #### Patient management:
      * Add (Ajout), update(modification), ou delete(suppression).(CRUD) Using MySQL database and Spring Data JPA and Hibernate Framwork
-     * using forms validation by Spring Validation dependecy 
+     * using forms validation by Spring Validation dependecy
+     * using Spring MVC
+     * using thymleaf as motor template to generate Vue for my App
  
  
  <br></br>
