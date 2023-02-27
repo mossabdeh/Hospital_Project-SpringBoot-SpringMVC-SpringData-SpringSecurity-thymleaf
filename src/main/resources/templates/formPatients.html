@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="template1"
+>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Patients</title>
+    <link rel="stylesheet" href="webjars/bootstrap/5.2.3/css/bootstrap.min.css">
+    <script src="webjars/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <script src="webjars/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<section layout:fragment="content1" >
+
+     <div class="col-md-6 offset-3">
+    <form method="post" th:action="@{save}">
+      <div >
+          <label> Nom </label>
+          <input class="form-control" type="text" name="nom" th:value="${patient.nom}">
+          <span class="text-danger" th:errors="${patient.nom}"></span>
+
+      </div>
+
+        <div >
+            <label> Date naissaince </label>
+            <input class="form-control" type="date" name="dateNaissance" th:value="${patient.dateNaissance}">
+            <span th:errors="${patient.dateNaissance}"></span>
+        </div>
+        <div >
+            <label> Malade</label>
+            <input  type="checkbox" name="malade" th:checked="${patient.malade}">
+            <span th:errors="${patient.malade}"></span>
+
+        </div>
+        <label> Email </label>
+        <input class="form-control" type="email" name="email" th:value="${patient.email}">
+        <span th:errors="${patient.email}"></span>
+
+         <button type="submit" class="btn btn-secondary">Save</button>
+    </form>
+     </div>
+</section>
+
+
+
+</body>
+</html>
