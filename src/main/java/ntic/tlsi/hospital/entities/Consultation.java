@@ -10,6 +10,7 @@ import java.util.Date;
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
 public class Consultation {
+    // mossab
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String rapport;

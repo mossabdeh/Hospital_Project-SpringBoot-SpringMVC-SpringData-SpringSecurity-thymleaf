@@ -6,6 +6,7 @@ import ntic.tlsi.hospital.entities.Patient;
 import ntic.tlsi.hospital.entities.RendezVous;
 
 public interface IHospitalService {
+    // mossab
     Patient savePatient(Patient patient);
     Medecin saveMedecin(Medecin medecin);
     RendezVous saveRDV(RendezVous rendezVous);

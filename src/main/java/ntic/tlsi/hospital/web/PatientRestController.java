@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class PatientRestController {
 
     private PatientRepository patientRepository;
-
+    // mossab
     @GetMapping("/index")
     /*public List<Patient> patientList(){
         return patientRepository.findAll();

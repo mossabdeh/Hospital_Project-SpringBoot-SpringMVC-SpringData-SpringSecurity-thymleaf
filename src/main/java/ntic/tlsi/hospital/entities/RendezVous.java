@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
-public class RendezVous {
+public class RendezVous {// mossab
     @Id
     private String id;
     private Date date;
